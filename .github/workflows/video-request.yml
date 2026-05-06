@@ -1,0 +1,167 @@
+name: Video Request
+description: Request a new Nexus7 sales or marketing video
+title: "[Video]: "
+labels:
+  - video-request
+  - needs-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request a new video asset for Nexus7BusinessOS.
+
+  - type: input
+    id: video_title
+    attributes:
+      label: Video Title
+      placeholder: "Example: Pharmacy QuickPOS 15-Second Demo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: business_type
+    attributes:
+      label: Business Type
+      options:
+        - Pharmacy
+        - Grocery
+        - Hardware
+        - Resto/Cafe
+        - General SME
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Target Platform
+      options:
+        - Facebook
+        - TikTok
+        - YouTube Shorts
+        - Instagram Reels
+        - LinkedIn
+        - Website Hero Video
+    validations:
+      required: true
+
+  - type: dropdown
+    id: video_length
+    attributes:
+      label: Target Length
+      options:
+        - 15 seconds
+        - 30 seconds
+        - 60 seconds
+        - 90 seconds
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: video_goal
+    attributes:
+      label: Video Goal
+      options:
+        - Awareness
+        - Product Demo
+        - Demo Booking
+        - Problem Education
+        - Feature Explanation
+        - Objection Handling
+        - Launch Announcement
+    validations:
+      required: true
+
+  - type: textarea
+    id: target_audience
+    attributes:
+      label: Target Audience
+      description: Who is this video for?
+      placeholder: "Example: Small pharmacy owners in the Philippines using notebooks, Excel, or basic POS tools."
+    validations:
+      required: true
+
+  - type: textarea
+    id: customer_problem
+    attributes:
+      label: Customer Problem
+      description: What pain point should the video highlight?
+      placeholder: "Example: Owners struggle to track sales, stock movement, and daily reports manually."
+    validations:
+      required: true
+
+  - type: textarea
+    id: core_message
+    attributes:
+      label: Core Message
+      description: One clear sentence the viewer should remember.
+      placeholder: "Example: Nexus7 helps pharmacy owners sell faster and track their business more clearly."
+    validations:
+      required: true
+
+  - type: textarea
+    id: call_to_action
+    attributes:
+      label: Call to Action
+      placeholder: "Example: Book a free demo."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_scenes
+    attributes:
+      label: Suggested Scenes
+      description: List rough scene ideas.
+      placeholder: |
+        1. Owner checking notebook/manual sales
+        2. Nexus7 QuickPOS screen
+        3. Sale completed
+        4. Daily sales report shown
+        5. CTA screen
+    validations:
+      required: false
+
+  - type: textarea
+    id: voiceover
+    attributes:
+      label: Voiceover Script
+      description: Add draft voiceover if available.
+      placeholder: "Example: Still tracking sales manually? Nexus7BusinessOS helps you..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: required_assets
+    attributes:
+      label: Required Assets
+      description: List screenshots, logos, UI clips, or product images needed.
+      placeholder: |
+        - Nexus7 logo
+        - QuickPOS screenshot
+        - Dashboard screenshot
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+        - Urgent
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: approval_checklist
+    attributes:
+      label: Request Checklist
+      options:
+        - label: Target audience is clear
+        - label: CTA is included
+        - label: No unapproved pricing is included
+        - label: No exaggerated claim is included
+        - label: Required assets are listed if needed

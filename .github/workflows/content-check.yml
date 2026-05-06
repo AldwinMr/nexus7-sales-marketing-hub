@@ -1,0 +1,45 @@
+name: Content Check
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  markdown-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required repository files
+        run: |
+          test -f README.md
+          test -f BRAND_GUIDE.md
+          test -f CONTENT_WORKFLOW.md
+          test -f APPROVAL_RULES.md
+
+      - name: Check templates folder
+        run: |
+          test -d 07-templates
+          test -f 07-templates/campaign-brief-template.md
+          test -f 07-templates/video-brief-template.md
+          test -f 07-templates/social-post-template.md
+          test -f 07-templates/sales-script-template.md
+          test -f 07-templates/demo-script-template.md
+          test -f 07-templates/landing-page-copy-template.md
+          test -f 07-templates/email-template.md
+          test -f 07-templates/objection-handling-template.md
+          test -f 07-templates/customer-persona-template.md
+          test -f 07-templates/competitor-research-template.md
+          test -f 07-templates/proposal-template.md
+          test -f 07-templates/content-request-template.md
+
+      - name: Prevent accidental secret commits
+        run: |
+          if grep -RniE "OPENAI_API_KEY|sk-proj-|sk-[A-Za-z0-9]" . --exclude-dir=.git; then
+            echo "Potential secret found. Remove it before merging."
+            exit 1
+          fi

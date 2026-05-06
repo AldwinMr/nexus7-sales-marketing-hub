@@ -1,0 +1,180 @@
+name: Campaign Request
+description: Request a new Nexus7 campaign or launch pack
+title: "[Campaign]: "
+labels:
+  - campaign-request
+  - needs-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request a new campaign, launch pack, promo, or content campaign for Nexus7BusinessOS.
+
+  - type: input
+    id: campaign_name
+    attributes:
+      label: Campaign Name
+      placeholder: "Example: Pharmacy POS Launch Campaign"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: campaign_type
+    attributes:
+      label: Campaign Type
+      options:
+        - Product Launch
+        - Awareness
+        - Lead Generation
+        - Demo Booking
+        - Retargeting
+        - Referral
+        - Seasonal Promo
+        - Local Business Outreach
+    validations:
+      required: true
+
+  - type: dropdown
+    id: business_type
+    attributes:
+      label: Target Business Type
+      options:
+        - Pharmacy
+        - Grocery
+        - Hardware
+        - Resto/Cafe
+        - General SME
+    validations:
+      required: true
+
+  - type: textarea
+    id: target_audience
+    attributes:
+      label: Target Audience
+      description: Who is this campaign for?
+      placeholder: "Example: Small pharmacy owners in the Philippines using manual records, Excel, or basic POS tools."
+    validations:
+      required: true
+
+  - type: textarea
+    id: customer_problem
+    attributes:
+      label: Customer Problem
+      description: What problem are we targeting?
+      placeholder: "Example: Owners do not have a clean view of daily sales, inventory movement, and customer activity."
+    validations:
+      required: true
+
+  - type: textarea
+    id: nexus7_solution
+    attributes:
+      label: Nexus7 Solution
+      description: How does Nexus7 solve this problem?
+      placeholder: "Example: Nexus7 provides business-type-ready QuickPOS screens, product tracking, customer records, and daily reports."
+    validations:
+      required: true
+
+  - type: textarea
+    id: core_message
+    attributes:
+      label: Core Campaign Message
+      description: One sentence the audience should remember.
+      placeholder: "Example: Nexus7 helps SMEs sell faster, track inventory, and understand daily performance."
+    validations:
+      required: true
+
+  - type: textarea
+    id: offer
+    attributes:
+      label: Offer
+      placeholder: "Example: Book a free demo / Join pilot list / Try starter plan."
+    validations:
+      required: true
+
+  - type: textarea
+    id: call_to_action
+    attributes:
+      label: Call to Action
+      placeholder: "Example: Message us to book a free demo."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: channels
+    attributes:
+      label: Campaign Channels
+      options:
+        - label: Facebook
+        - label: TikTok
+        - label: YouTube Shorts
+        - label: Instagram
+        - label: LinkedIn
+        - label: Website
+        - label: Email
+        - label: Messenger
+        - label: Sales Outreach
+
+  - type: textarea
+    id: content_needed
+    attributes:
+      label: Content Needed
+      description: List the assets needed for this campaign.
+      placeholder: |
+        - Campaign brief
+        - Landing page copy
+        - 3 Facebook posts
+        - 1 video brief
+        - 1 sales script
+        - 1 demo script
+        - 1 follow-up email
+    validations:
+      required: true
+
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline
+      placeholder: |
+        Draft due:
+        Review due:
+        Launch target:
+    validations:
+      required: false
+
+  - type: textarea
+    id: success_metrics
+    attributes:
+      label: Success Metrics
+      placeholder: |
+        - Number of inquiries
+        - Demo bookings
+        - Clicks
+        - Cost per lead
+        - Conversion rate
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+        - Urgent
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: approval_checklist
+    attributes:
+      label: Request Checklist
+      options:
+        - label: Target audience is clear
+        - label: Campaign goal is clear
+        - label: Offer is included
+        - label: CTA is included
+        - label: Channels are selected
+        - label: No unapproved pricing is included
+        - label: No exaggerated claim is included
