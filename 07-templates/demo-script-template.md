@@ -1,101 +1,10 @@
-# Social Post Template
+# Product Demo Script Template
 
-## Post Title
+## Demo Name
 
-Example: Pharmacy Owners: Stop Tracking Sales Manually
+Example: Grocery QuickPOS Demo
 
-## Platform
-
-- Facebook
-- TikTok
-- Instagram
-- LinkedIn
-- YouTube Shorts
-- X/Twitter
-
-## Status
-
-- Draft
-- In Review
-- Approved
-- Published
-- Archived
-
-## Target Business Type
-
-- Pharmacy
-- Grocery
-- Hardware
-- Resto/Cafe
-- General SME
-
-## Target Audience
-
-Who is this post for?
-
-## Post Goal
-
-- Awareness
-- Engagement
-- Lead generation
-- Demo booking
-- Education
-- Product explanation
-- Objection handling
-
-## Hook
-
-First line or opening idea.
-
-Example:
-
-Still using notebooks to track your pharmacy sales?
-
-## Main Post Copy
-
-Write the post here.
-
-## Call to Action
-
-Example:
-
-Message us to book a free demo.
-
-## Suggested Visual
-
-Describe the image, screenshot, carousel, or video needed.
-
-## Hashtags
-
-```text
-#Nexus7BusinessOS
-#SmallBusinessPH
-#POSSystemPH
-#InventoryManagement
-Notes
-
-Add posting instructions, target location, or timing notes.
-
-Approval Checklist
- Hook is strong
- Message is simple
- CTA is clear
- No unapproved pricing
- No exaggerated claim
- Ready to post
-
----
-
-# `07-templates/sales-script-template.md`
-
-```md
-# Sales Script Template
-
-## Script Name
-
-Example: Pharmacy Owner Discovery Call Script
-
-## Status
+## Demo Status
 
 - Draft
 - In Review
@@ -110,92 +19,290 @@ Example: Pharmacy Owner Discovery Call Script
 - Resto/Cafe
 - General SME
 
-## Target Contact
+## Demo Audience
 
 - Owner
 - Manager
 - Cashier
-- Operations lead
-- Family business decision-maker
+- Operations Lead
+- Investor
+- Partner
 
-## Sales Scenario
-
-- Cold message
-- Discovery call
-- Product demo
-- Follow-up
-- Objection handling
-- Closing call
-- Renewal/upsell
-
-## Goal of the Conversation
+## Demo Goal
 
 Example:
 
-Understand the pharmacy owner’s current sales and inventory process and invite them to a Nexus7 demo.
+Show how a business owner can process a sale, update inventory, create a customer, and review daily reports using Nexus7BusinessOS.
 
-## Opening Line
+## Demo Duration
 
-```text
-Hi [Name], I’m reaching out because Nexus7BusinessOS helps small businesses like pharmacies manage sales, inventory, and daily reports in one system.
-Qualification Questions
-How are you currently tracking sales?
-Do you use a POS system today?
-How do you monitor inventory or stock levels?
-How do you know your daily sales total?
-Do you manage customer records or repeat buyers?
-What part of your current process is most time-consuming?
-Pain Discovery
+- 5 minutes
+- 10 minutes
+- 15 minutes
+- 30 minutes
 
-Use this section to identify business pain.
+---
 
-Question	Purpose
-What happens when stock runs low?	Understand inventory gaps
-How do you check daily profit or sales?	Understand reporting pain
-Who handles your sales records?	Understand staff process
-What system are you using now?	Understand replacement/migration risk
-Nexus7 Positioning
+## 1. Demo Setup Needed
 
-Explain the value simply.
+| Item | Status | Notes |
+|---|---|---|
+| Test business profile |  |  |
+| Test products |  |  |
+| Test customers |  |  |
+| Test users/roles |  |  |
+| Sample sales |  |  |
+| Inventory data |  |  |
+| Reports data |  |  |
+| Payment method setup |  |  |
 
-Nexus7BusinessOS gives you a business-type-ready POS screen, so your pharmacy, grocery, hardware, or cafe does not need to start from a blank system. You can sell products, track customers, monitor inventory, and review reports from one platform.
-Product Benefits
-Faster sales processing
-Cleaner product tracking
-Better daily sales visibility
-Business-type-ready QuickPOS screens
-Easier onboarding through templates
-Practical system for Philippine SMEs
-Demo Invitation
-Would you be open to a short demo so you can see how it would work for your business?
-Common Objections
-“We already use Excel.”
+---
+
+## 2. Opening Talk Track
+
+Today I’ll show how Nexus7BusinessOS helps your business process sales, track inventory, manage customers, and view daily reports using a workflow designed for your business type.
+
+The goal is to show the daily flow, not just individual features.
+
+---
+
+## 3. Discovery Before Demo
+
+Ask 2–3 questions before showing the product.
+
+1. How are you currently processing sales?
+2. How do you track products and inventory?
+3. How do you check daily sales performance?
+4. Who usually uses the sales screen?
+5. What part of your current process feels most manual?
+
+---
+
+## 4. Demo Flow
+
+| Step | Screen / Feature | What to Show | Talk Track |
+|---:|---|---|---|
+| 1 | Business Profile | Show business type and setup | Nexus7 starts with the type of business you run, so the system can match your actual workflow. |
+| 2 | Product Catalog | Show products, prices, categories, stock | Products can be organized by category so staff can find and sell items faster. |
+| 3 | Customer Creation | Create or select a customer | You can capture customer records for repeat buyers, credit tracking, history, or future loyalty features. |
+| 4 | QuickPOS Sale | Add products to cart and complete sale | The QuickPOS screen is designed for fast daily transactions. |
+| 5 | Inventory Update | Show stock movement after sale | Each sale helps update inventory visibility, reducing manual tracking. |
+| 6 | Reports | Show daily sales or transaction report | Owners can review business performance without manually rebuilding reports from notebooks or Excel. |
+| 7 | Roles / Permissions | Show owner, staff, cashier, guest if applicable | Access can be controlled based on each user’s role. |
+| 8 | Customer Menu / Guest Order | Show guest order flow if applicable | Customers or guests can place orders from a simplified customer-facing screen when enabled. |
+
+---
+
+## 5. Key Messages During Demo
+
+- Nexus7 is built around real SME workflows.
+- Each business type gets a more relevant QuickPOS experience.
+- The goal is to reduce manual work.
+- Product, customer, sales, inventory, and reports are connected.
+- Owners get better daily visibility.
+- Staff get a simpler sales workflow.
+
+---
+
+## 6. Business-Type Demo Angles
+
+### Pharmacy
+
+Focus on:
+
+- Product search
+- Medicine/product categories
+- Fast sales processing
+- Stock visibility
+- Daily sales reports
+
+Suggested talk track:
+
+For a pharmacy, the most important thing is speed, product accuracy, and stock visibility. Nexus7 helps staff process sales while giving the owner a cleaner view of daily activity.
+
+---
+
+### Grocery
+
+Focus on:
+
+- Fast-moving items
+- Barcode/product lookup
+- Bulk product list
+- Daily transactions
+- Inventory movement
+
+Suggested talk track:
+
+For groceries, transactions can happen quickly and repeatedly. Nexus7 helps organize products, process sales faster, and keep better visibility over daily movement.
+
+---
+
+### Hardware
+
+Focus on:
+
+- Product categories
+- Units of measure
+- High-SKU product list
+- Customer records
+- Quotation or invoice-style sales if available
+
+Suggested talk track:
+
+Hardware stores often deal with many product types, units, and repeat customers. Nexus7 helps organize the catalog and make sales easier to track.
+
+---
+
+### Resto/Cafe
+
+Focus on:
+
+- Menu-style QuickPOS
+- Guest/customer ordering
+- Order creation
+- Payment flow
+- Daily sales report
+
+Suggested talk track:
+
+For cafes and restaurants, the flow is about quick order taking and clear sales tracking. Nexus7 can support a menu-style workflow that makes ordering easier for staff and customers.
+
+---
+
+## 7. Questions to Ask During Demo
+
+1. Is this similar to how your team sells today?
+2. What part of this workflow would help your team most?
+3. Do you currently track inventory after every sale?
+4. What reports do you need daily?
+5. Who on your team would use this most?
+6. Would your staff prefer a simple sales screen or a more detailed one?
+7. What would you need before going live?
+
+---
+
+## 8. Common Demo Objections
+
+### “Our current process is already okay.”
 
 Response:
 
-That makes sense. A lot of small businesses start with Excel. Nexus7 is meant for the point where Excel becomes harder to manage because sales, inventory, customers, and reports are already connected.
-“We already have a POS.”
+That makes sense. The question is not whether the current process works, but whether it gives you enough speed, visibility, and control as the business grows.
+
+Follow-up:
+
+What part of your current process becomes harder when sales volume increases?
+
+---
+
+### “This might be hard for staff.”
 
 Response:
 
-That’s good. The question is whether your current POS gives you the workflow and reports you need. We can compare where Nexus7 may help, especially with business-type-specific screens and onboarding templates.
-“It might be too expensive.”
+That is a fair concern. That is why the demo focuses on the daily workflow first. The goal is to keep the sales process simple enough for staff to learn quickly.
+
+Follow-up:
+
+Who would need the most training?
+
+---
+
+### “Can this match our actual products?”
 
 Response:
 
-That’s fair. The goal is to keep Nexus7 practical for SMEs. The demo can help you decide if the time saved and better visibility are worth the monthly cost.
-“We are not ready yet.”
+Yes, the product catalog can be configured around your business type, categories, and actual products. The onboarding process is designed to start from templates and then adjust to your real list.
+
+Follow-up:
+
+Do you already have your product list in Excel or another format?
+
+---
+
+### “We need reports.”
 
 Response:
 
-No problem. The demo is still useful because it can help you see what to prepare before switching to a better system.
-Closing Line
-I can schedule a quick walkthrough and show you the version built for your business type.
-Follow-Up Message
-Hi [Name], thank you for your time earlier. As discussed, Nexus7BusinessOS can help your business manage sales, inventory, customers, and reports in one system. Let me know your preferred schedule for a quick demo.
-Approval Checklist
- Script sounds natural
- Questions are useful
- Objection responses are clear
- No overpromising
- Demo CTA is clear
+Reports are one of the main reasons to move away from manual tracking. The goal is to help the owner see daily sales and activity more clearly.
+
+Follow-up:
+
+What report do you check most often today?
+
+---
+
+## 9. Closing Talk Track
+
+Based on what we walked through, Nexus7 can help your team process sales faster and give you cleaner visibility over products, customers, inventory, and daily performance.
+
+The best next step is to review your current workflow and prepare a setup recommendation for your business type.
+
+---
+
+## 10. Next Step Options
+
+- Schedule a deeper demo
+- Prepare a proposal
+- Collect sample product list
+- Test with sample business data
+- Start onboarding plan
+- Add customer to pilot list
+
+Recommended next step:
+
+Would you like us to prepare a setup recommendation for your business?
+
+---
+
+## 11. Post-Demo Follow-Up Message
+
+Hi [Name],
+
+Thank you for joining the Nexus7BusinessOS demo.
+
+Based on what we discussed, Nexus7 may help your business with:
+
+- Faster sales processing
+- Product and inventory tracking
+- Customer records
+- Daily sales visibility
+- Business-type-ready workflows
+
+The next step is to review your current process and prepare a recommended setup for your business.
+
+Please send your sample product list or preferred schedule for the next walkthrough.
+
+Thank you.
+
+---
+
+## 12. Internal Demo Notes
+
+| Field | Notes |
+|---|---|
+| Business Name |  |
+| Business Type |  |
+| Attendees |  |
+| Current System |  |
+| Main Pain Point |  |
+| Most Interesting Feature |  |
+| Objections Raised |  |
+| Required Follow-Up |  |
+| Decision Maker |  |
+| Product List Available? |  |
+| Proposal Needed? |  |
+| Next Step |  |
+
+---
+
+## 13. Approval Checklist
+
+- [ ] Demo flow is logical
+- [ ] Screens are ready
+- [ ] Sample data is ready
+- [ ] Talk track is simple
+- [ ] Discovery questions are included
+- [ ] Objection responses are included
+- [ ] CTA is clear
+- [ ] Follow-up message is included
