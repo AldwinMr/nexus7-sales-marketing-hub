@@ -1,22 +1,35 @@
-# Nexus7 Sales & Marketing Hub
+# Sales & Marketing Template Library
 
-This repository stores approved and work-in-progress sales, marketing, video, campaign, and brand materials for Nexus7BusinessOS.
+This repository contains official templates for creating Nexus7 sales and marketing materials.
 
-## Main Areas
+## How to Use
 
-- `01-brand/` — brand messaging, positioning, product story
-- `02-sales/` — scripts, proposals, decks, objection handling
-- `03-marketing/` — campaigns, social posts, landing page copy
-- `04-video/` — video briefs, prompts, scripts, storyboards, generated videos
-- `05-assets/` — logos, screenshots, product UI images, raw media
-- `06-research/` — competitors, personas, market notes, pricing
-- `07-templates/` — reusable content templates
-- `08-automation/` — scripts and automation workflows
+1. Go to the `/templates` folder.
+2. Choose the template that matches your task.
+3. Copy the template into the appropriate `/working` folder.
+4. Rename the file using this format:
 
-## Workflow
+YYYY-MM-DD-topic-material-type.md
 
-1. Create or update content in a branch.
-2. Open a pull request.
-3. Review content.
-4. Approve and merge.
-5. Trigger automation only for approved content.
+Example:
+2026-05-17-resto-cafe-pos-facebook-post.md
+
+5. Complete all required sections.
+6. Submit the draft for review.
+7. Once approved, the file will be moved to `/approved`.
+
+## Template Types
+
+- Campaign Brief
+- Video Brief
+- Sales Script
+- Social Post
+- Email
+- Proposal
+- Customer Persona
+- Objection Handling
+- Demo Script
+
+## Status Flow
+
+Draft → Review → Approved → Archived
